@@ -1,6 +1,4 @@
-textarea{
-    height: 100%!important;
-}
+
 .woocommerce div.product .woocommerce-product-gallery--columns-4 .flex-control-thumbs li:nth-child(4n+1) {
     clear: none!important;
 }
