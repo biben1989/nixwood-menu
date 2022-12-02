@@ -1,4 +1,6 @@
-
+textarea{
+    height: auto!important;
+}
 .woocommerce div.product .woocommerce-product-gallery--columns-4 .flex-control-thumbs li:nth-child(4n+1) {
     clear: none!important;
 }
@@ -84,7 +86,7 @@ section.related.products h2{
     }
     .elementor-menu-toggle{
         position: relative;
-        z-index: 50000;
+
     }
     .elementor-nav-menu__container ul{
         margin-left: 0!important;
@@ -120,6 +122,7 @@ section.related.products h2{
         -webkit-animation: burgerToggle 1s ;
         animation: burgerToggle 1s ;
         top: -19px;
+        z-index: 51000;
     }
     @keyframes burgerToggle {
         0% {
